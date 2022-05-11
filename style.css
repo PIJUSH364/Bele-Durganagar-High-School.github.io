@@ -1,0 +1,852 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.notifiacation {
+  /* display: none; */
+  box-sizing: border-box;
+  padding-top: 0.3rem;
+  background: #a79e9e;
+  height: 7vh;
+  text-align: center;
+  color: whitesmoke;
+}
+.notifiacation p a {
+  text-decoration: none;
+  color: #002147;
+}
+.notifiacation p button {
+  background: #4b8ad1;
+  /* border-radius: 3px; */
+  border: none;
+  width: 80px;
+  padding: 0.6rem;
+  color: whitesmoke;
+  border-radius: 75px;
+}
+.notifiacation p button:hover {
+  background: whitesmoke;
+  color: #24262b;
+}
+.notifiacation_hidden {
+  display: none;
+}
+/* ******** section-1__________________all link icon ************ */
+*/ .section_1 {
+  box-sizing: border-box;
+}
+.special {
+  display: flex;
+  justify-content: space-between;
+  background-color: #002147;
+  color: whitesmoke;
+  padding: 1% 5% 1% 5%;
+}
+#property {
+  padding-right: 15px;
+  background-color: #002147;
+  font-size: 18px;
+}
+.special-col-1,
+.special-col-2 {
+  background-color: #002147;
+}
+#yellow {
+  color: #f8b90c;
+  background-color: #002147;
+}
+.fa-brands {
+  background-color: #002147;
+}
+
+/* ******** section-2__________________menu drop down bar************ */
+
+.section_2 {
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.nav-col1 figure img {
+  background-size: cover;
+  width: 5rem;
+}
+.MenuDropDown1 {
+  display: flex;
+  background-color: #ffffff;
+  /* padding-top: 2rem; */
+  /* width: 70rem; */
+  height: 8rem;
+  margin: 0px auto;
+  column-gap: 0.5rem;
+}
+.nav-col2 {
+  background-color: inherit;
+}
+.nav-col2 address p {
+  font-size: 0.8rem;
+}
+.nav-col2 address h3 {
+  font-size: 1.3rem;
+  color: #002147;
+  /* font-weight: 1000; */
+}
+.MenuDropDown1 ul {
+  padding: 0px;
+}
+/* .nav-col3_subMenuSection {
+  
+} */
+.nav-col3_subMenuSection li a span {
+  background-color: gainsboro;
+  text-decoration: none;
+}
+/* .nav-col3_subMenuSection:nth-child() {
+  background: gainsboro;
+} */
+.MenuDropDown1 ul li {
+  /* background-color: gray; */
+  color: #002147;
+  float: left;
+  /* menu-width */
+  width: 8rem;
+  list-style: none;
+  line-height: 1.9rem;
+  font-size: 1.1rem;
+  /* font-weight: bold; */
+  text-align: center;
+  /* opacity: 0.9; */
+}
+.MenuDropDown1 ul li .fa {
+  background-color: #ffffff;
+  font-size: medium;
+}
+.MenuDropDown1 ul li ul {
+  display: none;
+  background-color: gainsboro;
+}
+
+div ul li:hover {
+  color: #f8b90c;
+  cursor: pointer;
+  font-weight: 550;
+  /* opacity: 0.9; */
+  text-decoration: underline;
+}
+div ul li:hover > ul {
+  display: block;
+  /* text-decoration: none; */
+}
+.MenuDropDown1 ul li ul li {
+  position: relative;
+}
+.MenuDropDown1 ul li ul li ul {
+  position: absolute;
+  /* menu-width */
+  left: 9rem;
+  top: 0;
+}
+.MenuDropDown1 ul li ul {
+  color: #002147;
+  text-decoration: none;
+
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+.MenuDropDown1 ul li ul li a {
+  text-decoration: none;
+  color: #413a3bd3;
+}
+
+.MenuDropDown1 ul li ul li a :hover {
+  text-decoration: none;
+}
+/* ================================================= */
+/* ================================================= */
+/* section 3 main section of the body*/
+.section_3 {
+  background: url(images/School-ground.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  /* max-height: 90vh; */
+}
+.main-row-1 {
+  padding: 4rem 1rem 1rem 4rem;
+  max-width: 50%;
+}
+.main-sub-row-1 {
+  font-size: 2.5rem;
+  padding-bottom: 1%;
+}
+.main-sub-row-2 {
+  font-size: 25px;
+  padding-bottom: 1%;
+}
+.main-sub-row-3 {
+  font-size: 17px;
+  padding-bottom: 3%;
+}
+.sub-row-2 {
+  display: flex;
+  column-gap: 0.6rem;
+}
+div #know-more .fa-caret-right {
+  font-size: 20px;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+/*sliding text notice section*/
+
+.section-notice {
+  background-color: #f8b90c;
+  background: linear-gradient(to right, #f8b90c, #b68dddce, #f8b90c);
+  padding: 1rem;
+  color: #002147;
+  font-size: 1.6rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+/* ================================================= */
+/* ================================================= */
+
+/* *****************welcome section------------ section_5 *********************/
+
+.section_5 {
+  background: url(images/the-asian-school-bg\ section-5.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  padding: 1.7rem 1.7rem 1.7rem 4rem;
+
+  color: #002147;
+  height: 48vh;
+
+  /* opacity: 0.7; */
+}
+.welcome-col-1 {
+  width: 60%;
+  color: #333333;
+}
+.welcome-col-1 h1 {
+  font-family: Jost;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+.welcome-col-1 p {
+  padding-bottom: 0.4rem;
+}
+
+.welcome-col-2 {
+  width: 40%;
+}
+#know-more {
+  background: #f8b90c;
+  color: #002147;
+  /* padding: 12px 24px; */
+  padding: 0.7rem 1.2rem 0.7rem 1.2rem;
+  font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: none;
+  margin-top: 1rem;
+}
+#know-more:hover {
+  color: whitesmoke;
+  background-color: #002147;
+}
+#icon-know-more:hover {
+  background-color: #002147;
+}
+
+/* ================================================= */
+/* ================================================= */
+/* ************section 6 ---school administrator**********--> */
+.section_6 {
+  box-sizing: border-box;
+  padding: 1.7rem 1.7rem 1.7rem 4rem;
+  /* background: linear-gradient(
+    to right left,
+    rgba(231, 230, 230, 0.582) ;,
+    /* #fcfcfc 
+  ); */
+  background: rgba(231, 230, 230, 0.459);
+}
+.administrator {
+  display: flex;
+}
+/* js use */
+
+.operations {
+  /* max-width: 100rem; */
+  /* margin: 12rem auto 0 auto; */
+  padding: 1.7rem 1.5rem 0 0rem;
+}
+.btn {
+  border: none;
+  padding: 0.4rem;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(72, 100, 128);
+  background: inherit;
+  font-family: 'Times New Roman', Times, serif;
+}
+.btn:hover {
+  color: #ffaf03da;
+}
+
+.operations__tab-container {
+  display: flex;
+  justify-content: center;
+}
+.operations__tab {
+  margin-right: 2.5rem;
+  transform: translateY(-30%);
+}
+
+.operations__tab span {
+  margin-right: 1rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.operations__tab--active {
+  transform: translateY(-56%);
+}
+
+.operations__content {
+  display: none;
+  color: #333333;
+  /* JUST PRESENTATIONAL */
+  font-size: 1.1rem;
+  padding: 1.3rem;
+}
+.operations__content figure img {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.operations__content--active {
+  display: grid;
+  /* grid-template-rows: 1fr 1fr; */
+}
+
+/* ================== */
+.school_overview {
+  width: 50%;
+}
+.Principal_Desk {
+  width: 50%;
+  text-align: center;
+  color: #333333;
+}
+.Principal_Desk div p {
+  text-align: left;
+  font-size: 1.1rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Principal_Desk figure img {
+  border-radius: 50%;
+}
+.Principal_Desk figure {
+  padding: 1rem;
+}
+/* ================================================= */
+/* ================================================= */
+/* ******************** section_7---image sliding on school activities*************** */
+
+.section_7 {
+  /* width: 100%; */
+  /* height: 30vh; */
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: inherit;
+  overflow: hidden;
+  /* position: relative; */
+  /* top: 500px; */
+}
+/* .bar_sliding {
+  color: rgb(16, 34, 34);
+  text-align: center;
+} */
+.slide-container {
+  /* width: 100%; */
+  height: 40vh;
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  /* background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43)); */
+}
+.image-slider {
+  /* width: 100%; */
+  /* hight can be change************ */
+  /* height: 600px; */
+
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.7s;
+  /* overflow: hidden; */
+}
+.slides-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1px 0 10px;
+}
+/* image under text showing pourpose */
+.slides-div a h2 {
+  /* text-align: end; */
+  text-align: center;
+  padding-top: 75%;
+  color: black;
+}
+.img {
+  position: relative;
+  width: 240px;
+  height: 170px;
+  transition: 0.5s;
+  filter: saturate(10%);
+}
+.button {
+  position: absolute;
+  width: 240px;
+  height: 170px;
+  transition: 0.5s;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+.button:hover {
+  background-color: rgb(0, 0, 0, 0.2);
+}
+#slider-span1:target ~ .image-slider #img1,
+#slider-span1:target ~ .image-slider #button-1 {
+  width: 290px;
+  height: 210px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+#slider-span2:target ~ .image-slider #img2,
+#slider-span2:target ~ .image-slider #button-2 {
+  width: 290px;
+  height: 210px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+
+#slider-span3:target ~ .image-slider #img3,
+#slider-span3:target ~ .image-slider #button-3 {
+  width: 290px;
+  height: 210px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+
+#slider-span4:target ~ .image-slider #img4,
+#slider-span4:target ~ .image-slider #button-4 {
+  width: 290px;
+  height: 210px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+#slider-span5:target ~ .image-slider #img5,
+#slider-span5:target ~ .image-slider #button-5 {
+  width: 290px;
+  height: 210px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+#slider-span6:target ~ .image-slider #img6,
+#slider-span6:target ~ .image-slider #button-6 {
+  width: 290px;
+  height: 210px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+/* image possition */
+
+#slider-span1:target ~ .image-slider {
+  left: 20%;
+}
+#slider-span2:target ~ .image-slider {
+  left: 10%;
+}
+#slider-span3:target ~ .image-slider {
+  left: 5%;
+}
+
+#slider-span5:target ~ .image-slider {
+  left: -5%;
+}
+#slider-span6:target ~ .image-slider {
+  left: -18%;
+}
+
+/* ================================================= */
+
+/****section 8 Drecption about the  school*************** */
+.School-Activities {
+  height: 100px;
+  background-color: rgba(137, 43, 226, 0.466);
+}
+/*school about decription paragraph*/
+.section_8 {
+  padding: 0.5rem 4rem 1rem 4rem;
+}
+.para {
+  color: #24262bec;
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.para-one {
+  padding-bottom: 1%;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+/*****section_9---Want to study at The bele durga nagar high  School*/
+
+.Apply-now {
+  background-color: #f8b90c;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 29px;
+  padding: 3%;
+}
+.apply-title-h2 {
+  color: #002147;
+  font-size: 40px;
+  background: #f8b90c;
+  padding-left: 0;
+}
+#apply-button {
+  background: #002147;
+  color: whitesmoke;
+  padding: 0.7rem 1.7rem;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: none;
+}
+.apply-button {
+  background: #f8b90c;
+}
+#apply-button:hover {
+  color: #002147;
+  background-color: whitesmoke;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+/* section_10--make-an-enqery */
+
+.section_10 {
+  display: flex;
+  height: auto;
+  padding: 3%;
+  justify-content: space-around;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+form {
+  margin: 1%;
+  padding: 3%;
+  width: 25%;
+  background-color: white;
+  box-shadow: 2px 2px 7px 1px gray;
+}
+.video-box {
+  box-shadow: 2px 2px 7px 1px gray;
+  border-radius: 3px;
+  align-items: center;
+  border-radius: 7px;
+  margin-top: 2%;
+}
+
+.title {
+  color: #333333;
+  background-color: white;
+  font-size: 29px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5%;
+}
+#info {
+  padding: 3px;
+  background-color: white;
+}
+#info-title {
+  background-color: white;
+}
+input[type='email'],
+input[type='name'],
+input[type='number'] {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #bbbbbb;
+  margin: 3px;
+  border-radius: 5px;
+}
+#class-name {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #bbbbbb;
+  margin: 3px;
+  border-radius: 5px;
+}
+.submit {
+  width: 85px;
+  border: none;
+  padding: 13px;
+  margin: 12px;
+  color: whitesmoke;
+  background-color: #002147;
+  font-family: 'Noto Serif Display', serif;
+  font-weight: bold;
+  line-height: 15px;
+  font-size: 17px;
+}
+.submit:hover {
+  color: #002147;
+  background-color: #f8b90c;
+}
+
+/* ================================================= */
+/* ================================================= */
+/* ********section_11****- */
+
+/* ================================================= */
+/* ================================================= */
+/********section_12---Latest News & Events**************/
+.section_12 {
+  padding: 2rem 0 3rem;
+  height: auto;
+  box-sizing: border-box;
+}
+.box-1 {
+  padding-left: 4rem;
+}
+h2.news-events {
+  font-size: 250%;
+  text-align: center;
+  text-decoration: underline;
+}
+#button,
+#button-event {
+  border: none;
+  background-color: #f8b90c;
+  color: white;
+  padding: 1%;
+
+  font-size: medium;
+}
+#button {
+  background-color: #002147;
+}
+#button-event:hover {
+  background-color: #002147;
+}
+.box-2 {
+  padding: 1% 3% 1% 3%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.subbox {
+  width: 25%;
+  height: auto;
+  padding: 2%;
+  box-shadow: 2px 3px 2px rgba(128, 128, 128, 0.438);
+  margin: 1%;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.admin-date {
+  display: flex;
+  color: black;
+}
+.admin-date p:hover {
+  color: #f8b90c;
+  cursor: grab;
+}
+.admin,
+.date {
+  color: #a79e9e;
+  padding: 10px 15px 0 0;
+}
+.notice {
+  color: black;
+  padding-bottom: 3%;
+}
+/* ================================================= */
+/* ================================================= */
+/* ****************section_13---footer link part****************** */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,700&family=Noto+Serif+Display:wght@200&family=Poppins&display=swap');
+
+.section_13 {
+  box-sizing: border-box;
+}
+.container-footer {
+  /* max-width: 1300px; */
+  padding-left: 3rem;
+
+  /* margin: auto; */
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #24262b;
+}
+ul {
+  list-style: none;
+  background-color: #24262b;
+}
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.footer-col {
+  width: 20%;
+  background-color: #24262b;
+}
+.container-footer .row #col-1 {
+  width: 30%;
+}
+.footer-col h4 {
+  font-size: 25px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+  background-color: #24262b;
+}
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li {
+  background: #24262b;
+}
+.footer-col ul {
+  padding: 0;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: 0;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+  background-color: #24262b;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 10px;
+}
+div.social-links {
+  background-color: #24262b;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+.fab {
+  background-color: rgba(255, 255, 255, 0.2);
+  background: none;
+}
+.footer-col ul b {
+  background-color: #24262b;
+}
+.footer-col ul .fa-solid {
+  background-color: #24262b;
+  color: #f8b90c;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+/********************section-`14----------------- footer section********************* */
+
+.dev-site {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(5, 46, 107);
+  font-size: 18px;
+  padding: 1rem 3rem 1rem 3rem;
+}
+.made-by-name,
+.school-name {
+  background-color: rgb(5, 46, 107);
+  font-family: 'Playfair Display', serif;
+  font-family: 'Syne Mono', monospace;
+  margin: 0;
+  color: yellow;
+  font-size: 18px;
+}
+.dev-site p {
+  color: whitesmoke;
+  /* text-decoration: none; */
+}
+.dev-site p a {
+  text-decoration: none;
+}
+.copyright,
+.made-by {
+  background-color: rgb(5, 46, 107);
+}
+/* ====================================== */
+/* ====================================== */
+.down_botton {
+  /* padding: 0.3rem; */
+  /* background: #33333399; */
+  background: transparent;
+}
+.down_botten button {
+  padding: 1rem;
+  /* opacity: 0.5; */
+  /* border: none; */
+  border-color: #3230308b;
+  border-radius: 5px;
+  /* transform: translateY(+50%); */
+}
+.down_botten button .fa-circle-arrow-up {
+  padding: 0.4rem;
+  font-size: 300px;
+  color: #002147;
+}
