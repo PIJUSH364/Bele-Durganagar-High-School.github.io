@@ -38,11 +38,13 @@ tabsContainer.addEventListener('click', function (e) {
     .classList.add('operations__content--active');
 });
 
-// vbvvbvv
+// ________DropDownMenu______
+
 const dropDownMenuIcon = document.querySelector('.dropDownMenuIcon');
 const dropDownMenu = document.querySelector('.dropDownMenu');
 const removeDropDown_icon = document.querySelector('.removeDropDown_icon');
-
+const schoollogo = document.querySelector('.nav-col1');
+console.log(schoollogo);
 const dropDownMenuIcon_faBars = document.querySelector(
   '.dropDownMenuIcon_faBars'
 );
@@ -50,14 +52,19 @@ const dropDownMenuIcon_faBars = document.querySelector(
 // console.log(dropDownMenuIcon_faBars);
 dropDownMenuIcon_faBars.addEventListener('click', function (e) {
   // console.log('mk');
+  e.preventDefault();
   dropDownMenu.classList.remove('active_display');
   dropDownMenuIcon.classList.add('active_display');
-  removeDropDown_icon.classList.remove('active_display');
+
+  schoollogo.classList.add('active_display');
+  removeDropDown_icon.style.display = 'flex';
 });
 
-removeDropDown_icon.addEventListener('click', function () {
-  // removeDropDown_icon.classList.add('active_display');
+removeDropDown_icon.addEventListener('click', function (e) {
+  e.preventDefault();
   dropDownMenu.classList.add('active_display');
   dropDownMenuIcon.classList.remove('active_display');
-  removeDropDown_icon.classList.add('active_display');
+
+  schoollogo.classList.remove('active_display');
+  removeDropDown_icon.style.display = 'none';
 });
