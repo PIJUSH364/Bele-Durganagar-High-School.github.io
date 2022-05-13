@@ -37,3 +37,27 @@ tabsContainer.addEventListener('click', function (e) {
     .querySelector(`.operations__content--${clicked.dataset.tab}`)
     .classList.add('operations__content--active');
 });
+
+// vbvvbvv
+const dropDownMenuIcon = document.querySelector('.dropDownMenuIcon');
+const dropDownMenu = document.querySelector('.dropDownMenu');
+const removeDropDown_icon = document.querySelector('.removeDropDown_icon');
+
+const dropDownMenuIcon_faBars = document.querySelector(
+  '.dropDownMenuIcon_faBars'
+);
+
+// console.log(dropDownMenuIcon_faBars);
+dropDownMenuIcon_faBars.addEventListener('click', function (e) {
+  // console.log('mk');
+  dropDownMenu.classList.remove('active_display');
+  dropDownMenuIcon.classList.add('active_display');
+  removeDropDown_icon.classList.remove('active_display');
+});
+
+removeDropDown_icon.addEventListener('click', function () {
+  // removeDropDown_icon.classList.add('active_display');
+  dropDownMenu.classList.add('active_display');
+  dropDownMenuIcon.classList.remove('active_display');
+  removeDropDown_icon.classList.add('active_display');
+});
